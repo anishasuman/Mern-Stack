@@ -1,0 +1,8 @@
+.inp-wrapper{
+    display: block;
+}
+/*block level ke liyh display = block hoga*/
+.name label{
+    display: block;
+}
+
