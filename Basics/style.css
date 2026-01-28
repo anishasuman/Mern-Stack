@@ -1,0 +1,25 @@
+
+/* for universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#greet{
+    width: 80px;
+    background-color: rgb(135, 158, 222);
+    border: 2px dashed green;
+    padding: 20px;
+}
+
+.text{
+    color: red;
+    margin: 10px 0px;
+}
+
+/* optional */
+p:hover{
+    color: black;
+}
+/*gihub.com/exewhyz/html-css-basics-lpu*/

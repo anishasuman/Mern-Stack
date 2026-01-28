@@ -1,0 +1,23 @@
+.parent{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.child{
+    position: sticky;
+    top: 10px;
+    left: 23px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    z-index: 1;
+}
+
+.child2{
+    position: relative;
+    z-index: 2;
+    
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60vw;
+    height: 70vh;
+    background-color: aquamarine;
+    display:grid;
+    gap: 10px;
+    grid-template-columns: 100px 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+}
+.box{
+     width: 50px;
+    height: 50px;
+    background-color: brown;
+}
+.box1{
+    grid-column: 3 / 4;
+    grid-row: 3/4;
+}

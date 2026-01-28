@@ -1,0 +1,7 @@
+ul{
+     list-style: square;
+}
+/*default value is */
+ol{
+    list-style: lower-roman;
+}
