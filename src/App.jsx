@@ -1,23 +1,35 @@
-import './App.css';
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
+import Main from "./components/main";
+import Todos from "./components/todos";
 
-import Navbar from './components/navbar';
-import Main from './components/main';
-import Footer from './components/footer';
+const links = [
+  {
+    id: 1,
+    title: "Home",
+    url: "/",
+  },
+  {
+    id: 2,
+    title: "About",
+    url: "/about",
+  }
+];
 
-function App() {
-  const links = [
-    { id: 1, title: 'Home', url: '/' },
-    { id: 2, title: 'About', url: '/about' },
-    { id: 3, title: 'Contact', url: '/contact' },
-  ];
-
+export default function App() {
   return (
-    <>
-      <Navbar brandName="My App" links={links} />
+    <div>
+      <Navbar brandName="Test" links={links}/>
       <Main />
+      <Todos />
       <Footer />
-    </>
+    </div>
   );
 }
 
-export default App;
+// export const name = "Aniket";
+// export const age = 2;
+
+// export default App;
+
+// export { name, age }
